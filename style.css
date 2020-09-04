@@ -1,0 +1,314 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+	color: #777777;
+}
+a{
+	color: green;
+	text-decoration: none;
+}
+
+.green-text{
+	color: green;
+}
+.small-text{
+	font-size: 13px;
+	text-align: justify;
+	word-break: break-all;
+}
+.heading-border{
+	border-bottom: 2px green solid;
+	padding-bottom: 0.3rem; 
+
+}
+
+/*header styling*/
+
+#container ul{
+
+	vertical-align: top;
+	list-style: none;
+	margin-top:  1.3rem;
+	margin-left: 0.7rem;
+	/*padding: 2rem;*/
+	display: inline-block;
+}
+#container ul li{
+	display: inline-block;
+	/*vertical-align: top;*/
+	margin: 1.5rem 2.5rem  0rem 0rem ;
+	/*padding: 1rem;*/
+}
+li p{
+	font-weight: bold;
+	letter-spacing: 1.7px;
+	display: inline-block;
+	/*vertical-align: top;*/
+	margin-top: 0rem;
+}
+
+
+header{
+	background-image: linear-gradient(to right,white , lightgrey);
+	box-shadow: 0px 1px 7px grey;
+}
+#container{
+	width: 90%;
+	margin: 0 auto 0;
+	align-items: center;
+
+}
+#logo{
+	display: inline-block;
+	margin: 1.2rem 1.2rem 1.2rem 8vw;
+	
+
+}
+#logo img{
+	display: inline-block;
+	width: 20vw;
+	/*margin: 1rem;*/
+
+}
+
+/*header ends*/
+
+
+/*main styling*/
+
+main{
+	background-image: url("./images/main_bg.jpg");
+	/*background-repeat: no-repeat;*/
+}
+
+/*slider styling*/
+#sliderContainer{
+	width: 75%;
+	margin: 0px auto 0px ;
+}
+
+#slider div img{
+	width: 97.5%;
+	margin-left: 1%;
+}
+
+.slider-content{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: -22vw;
+	margin-top: 3rem;
+	width: 16vw;
+}
+.learn-button  p{
+	margin: 0;
+	padding: 2px;
+}
+.learn-button{
+	width: 9rem;
+	text-align: left;
+	border: 1px green solid;
+	margin: 2rem 0 1rem 0;
+
+}
+
+/*slider styling ends*/
+
+/*lifestyle styling*/
+
+#lifestyleContainer{
+	width: 72vw;
+	margin: 1rem  auto 1rem ;
+	/*margin-right: auto;
+	margin-left: auto;*/
+	background-image: linear-gradient(to bottom, white , #E0E0E0);
+	border: 2px solid lightgrey;
+	/*align-items: top;*/
+	/*font-size: 12px;*/
+	
+}
+#lifestyleContainer h3{
+	width: 95%;
+	margin: 1.5rem auto 0 ;
+	
+}
+/*#lifestyleHeading{
+	border-bottom: 2px green solid;
+	padding: 2rem;
+	width: 95%;
+	margin: 1rem auto 0;
+}*/
+
+/*#lifestyleHeading h3 {
+
+	padding: 2rem 0 0 0 ;
+}*/
+
+#lifestyleContent{
+	width: 25%;
+	text-align: justify;
+	font-size: 13px;
+	/*border-right: solid grey 2px;*/
+	padding: 0 0.5% 1rem 1.5rem;
+	display: inline-block;
+	
+
+}
+
+
+
+section{
+	width: 65%;
+	vertical-align: top;
+	column-count: 4;
+	display: inline-block;
+	column-gap: 1rem;
+	margin:  1rem 0 0 0.5rem;
+}
+section div{
+	border-left: 2px solid lightgrey;
+	padding: 1rem;
+	/*height: 100%;*/
+	margin-bottom: 1rem;
+}
+section div img{
+	width: 110%;
+}
+section div p{
+	font-size: 13px;
+	text-align: justify;
+	word-break: break-all;
+
+}
+
+
+/*customer and news section */
+
+#customerAndNews{
+	/*width: 75%;
+	margin: 1.3rem auto 0;*/
+
+	width: 72vw;
+	margin: 1rem  auto 1rem ;
+
+
+}
+
+#customerSection{
+	display: inline-block;
+	width: 58%;
+
+}
+#imageContainer a img{
+ 	width: 30%;
+ 	min-width: 150px;
+
+}
+
+
+#newsSection{
+	display: inline-block;
+	width: 34%;
+	vertical-align: top;
+	margin-left: 6.8%;
+
+
+
+}
+#newsSection h5{
+	margin-bottom: 0;
+}
+.date{
+	margin: 0.5rem 0 1rem 0;
+	color: #484848;
+}
+
+
+.news{
+	border-top: 2px lightgrey solid;
+	margin-top: 2rem;
+}
+
+
+/*customer and new section end*/
+
+
+/*photo and video section*/
+
+#photoAndVideo{
+	
+	/*width: 71.5%;
+	margin: 1rem 11rem 1rem;*/
+
+	width: 72vw;
+	margin: 1rem  auto 1rem ;
+	background-image: linear-gradient(to bottom, white , #E0E0E0);
+	border: 2px solid lightgrey;
+}
+
+#photoAndVideo div{
+	display: inline-block;
+	width: 40%;
+	margin: 1rem 3%;
+	/*background-color: lightpink;*/
+}
+#videoSection{
+	 float: right;
+}
+
+
+.glightbox-clean .gdesc-inner, .glightbox-modern .gdesc-inner {
+    padding: 0 !important;
+}
+
+.glightbox-clean .gdesc-inner, .glightbox-modern .gdesc-inner {
+    padding: 0 !important;
+}
+h4{
+	margin:0 0 0 1rem !important;
+	color: green !important;
+
+}
+#photoAndVideo div a img{
+	width: 49%;
+	/*margin:1rem 1rem  0 ;*/
+	/*margin-left: 2%;*/
+	margin: 0 auto 0;
+}
+
+footer{
+	background-color: brown;
+	/*height: 15vh;*/
+}
+
+footer div ul{
+	list-style: none;
+	display: inline-block;
+	margin-top: 0.1rem;
+	margin-bottom: 3rem;
+	margin-left:  -5%;
+
+
+}
+footer div ul li{
+	display: inline-block;
+	margin-right: 1rem;
+}footer h6{
+	color: lightgrey;
+}
+
+
+footer div p{
+	display: inline-block;
+	float: right;
+	vertical-align: top; 
+	margin-top: 1.5rem;
+}
+footer div{
+	/*width: 75%;
+	margin:auto;*/
+
+	width: 72vw;
+	margin:  0 auto 0  ;
+}
+
+
